@@ -9,7 +9,6 @@ D:\учеба\СПП\AssemblyBrowser\GuiApp\obj\Debug\net5.0-windows\GuiApp.cspr
 D:\учеба\СПП\AssemblyBrowser\GuiApp\obj\Debug\net5.0-windows\MainWindow.g.cs
 D:\учеба\СПП\AssemblyBrowser\GuiApp\obj\Debug\net5.0-windows\App.g.cs
 D:\учеба\СПП\AssemblyBrowser\GuiApp\obj\Debug\net5.0-windows\GuiApp_MarkupCompile.cache
-D:\учеба\СПП\AssemblyBrowser\GuiApp\obj\Debug\net5.0-windows\GuiApp_MarkupCompile.lref
 D:\учеба\СПП\AssemblyBrowser\GuiApp\obj\Debug\net5.0-windows\MainWindow.baml
 D:\учеба\СПП\AssemblyBrowser\GuiApp\obj\Debug\net5.0-windows\GuiApp.g.resources
 D:\учеба\СПП\AssemblyBrowser\GuiApp\obj\Debug\net5.0-windows\GuiApp.GeneratedMSBuildEditorConfig.editorconfig

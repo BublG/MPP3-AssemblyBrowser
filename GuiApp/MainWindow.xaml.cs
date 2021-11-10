@@ -24,11 +24,19 @@ namespace GuiApp
             openFileDialog.Filter = "Assemblies (*.dll, *.exe)|*.dll;*.exe";
             if (openFileDialog.ShowDialog() == true)
             {
-                Node root = AssemblyBrowser.BuildTree(AssemblyBrowser.GetAssemblyInfo(openFileDialog.FileName));
-                AddNameSpaces(root);
+                try
+                {
+                    TreeView.Items.Clear();
+                    Node root = AssemblyBrowser.BuildTree(AssemblyBrowser.GetAssemblyInfo(openFileDialog.FileName));
+                    AddNameSpaces(root);
+                }
+                catch (Exception exception)
+                {
+                    MessageBox.Show(exception.Message);
+                }
             }
         }
-
+        
         private void AddTypeMembers(Node type, TreeViewItem typeItem)
         {
             foreach (var typeMember in type.Child)

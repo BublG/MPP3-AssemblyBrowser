@@ -11,5 +11,10 @@ namespace AssemblyBrowserLibrary.Structures
         {
             Child = new ObservableCollection<Node>();
         }
+
+        public override string ToString()
+        {
+            return Name + "\n";
+        }
     }
 }

@@ -48,9 +48,9 @@ namespace AssemblyBrowserLibrary
                 {
                     Node dataTypeInfoNode = new Node();
                     dataTypeInfoNode.Name = "Class: " + dataTypeInfo.Name;
-                    AddMethodsNodes(dataTypeInfo.MethodInfos, dataTypeInfoNode);
                     AddFieldsNodes(dataTypeInfo.FieldInfos, dataTypeInfoNode);
                     AddPropertyNodes(dataTypeInfo.PropertyInfos, dataTypeInfoNode);
+                    AddMethodsNodes(dataTypeInfo.MethodInfos, dataTypeInfoNode);
                     namespaceNode.Child.Add(dataTypeInfoNode);
                 }
             }
@@ -70,7 +70,7 @@ namespace AssemblyBrowserLibrary
                     parametersString += parameter.ParameterType.Name + " " + parameter.Name + ", ";
                 }
 
-                if (string.IsNullOrEmpty(parametersString))
+                if (!string.IsNullOrEmpty(parametersString))
                 {
                     parametersString = parametersString.Substring(0, parametersString.Length - 2);
                 }

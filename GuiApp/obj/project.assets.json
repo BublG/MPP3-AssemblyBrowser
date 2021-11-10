@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0-windows7.0": {}
+    "net5.0-windows7.0": {
+      "AssemblyBrowserLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/AssemblyBrowserLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AssemblyBrowserLibrary.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "AssemblyBrowserLibrary/1.0.0": {
+      "type": "project",
+      "path": "../AssemblyBrowserLibrary/AssemblyBrowserLibrary.csproj",
+      "msbuildProject": "../AssemblyBrowserLibrary/AssemblyBrowserLibrary.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0-windows7.0": []
+    "net5.0-windows7.0": [
+      "AssemblyBrowserLibrary >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\BublG\\.nuget\\packages\\": {}
@@ -31,7 +50,11 @@
       "frameworks": {
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\учеба\\СПП\\AssemblyBrowser\\AssemblyBrowserLibrary\\AssemblyBrowserLibrary.csproj": {
+              "projectPath": "D:\\учеба\\СПП\\AssemblyBrowser\\AssemblyBrowserLibrary\\AssemblyBrowserLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

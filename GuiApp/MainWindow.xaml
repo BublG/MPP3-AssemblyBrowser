@@ -5,13 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GuiApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="AssemblyBrowser" Height="450" Width="800">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="50"/>
             <RowDefinition Height="400"/>
         </Grid.RowDefinitions>
-        <Button Width="800" Height="50">Select assembly</Button>
-        <TextBox Grid.Row="1">string</TextBox>
+        <Button Width="800" Height="50" Click="SelectAssembly">Select assembly</Button>
+        <TreeView Grid.Row="1" Name="TreeView"></TreeView>
     </Grid>
 </Window>

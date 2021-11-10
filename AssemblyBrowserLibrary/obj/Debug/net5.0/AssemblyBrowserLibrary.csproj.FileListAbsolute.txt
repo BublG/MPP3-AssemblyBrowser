@@ -1,0 +1,12 @@
+D:\учеба\СПП\AssemblyBrowser\AssemblyBrowserLibrary\bin\Debug\net5.0\AssemblyBrowserLibrary.deps.json
+D:\учеба\СПП\AssemblyBrowser\AssemblyBrowserLibrary\bin\Debug\net5.0\AssemblyBrowserLibrary.dll
+D:\учеба\СПП\AssemblyBrowser\AssemblyBrowserLibrary\bin\Debug\net5.0\ref\AssemblyBrowserLibrary.dll
+D:\учеба\СПП\AssemblyBrowser\AssemblyBrowserLibrary\bin\Debug\net5.0\AssemblyBrowserLibrary.pdb
+D:\учеба\СПП\AssemblyBrowser\AssemblyBrowserLibrary\obj\Debug\net5.0\AssemblyBrowserLibrary.csproj.AssemblyReference.cache
+D:\учеба\СПП\AssemblyBrowser\AssemblyBrowserLibrary\obj\Debug\net5.0\AssemblyBrowserLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\учеба\СПП\AssemblyBrowser\AssemblyBrowserLibrary\obj\Debug\net5.0\AssemblyBrowserLibrary.AssemblyInfoInputs.cache
+D:\учеба\СПП\AssemblyBrowser\AssemblyBrowserLibrary\obj\Debug\net5.0\AssemblyBrowserLibrary.AssemblyInfo.cs
+D:\учеба\СПП\AssemblyBrowser\AssemblyBrowserLibrary\obj\Debug\net5.0\AssemblyBrowserLibrary.csproj.CoreCompileInputs.cache
+D:\учеба\СПП\AssemblyBrowser\AssemblyBrowserLibrary\obj\Debug\net5.0\AssemblyBrowserLibrary.dll
+D:\учеба\СПП\AssemblyBrowser\AssemblyBrowserLibrary\obj\Debug\net5.0\ref\AssemblyBrowserLibrary.dll
+D:\учеба\СПП\AssemblyBrowser\AssemblyBrowserLibrary\obj\Debug\net5.0\AssemblyBrowserLibrary.pdb

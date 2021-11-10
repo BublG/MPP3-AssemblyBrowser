@@ -20,3 +20,6 @@ D:\учеба\СПП\AssemblyBrowser\GuiApp\obj\Debug\net5.0-windows\GuiApp.dll
 D:\учеба\СПП\AssemblyBrowser\GuiApp\obj\Debug\net5.0-windows\ref\GuiApp.dll
 D:\учеба\СПП\AssemblyBrowser\GuiApp\obj\Debug\net5.0-windows\GuiApp.pdb
 D:\учеба\СПП\AssemblyBrowser\GuiApp\obj\Debug\net5.0-windows\GuiApp.genruntimeconfig.cache
+D:\учеба\СПП\AssemblyBrowser\GuiApp\bin\Debug\net5.0-windows\AssemblyBrowserLibrary.dll
+D:\учеба\СПП\AssemblyBrowser\GuiApp\bin\Debug\net5.0-windows\AssemblyBrowserLibrary.pdb
+D:\учеба\СПП\AssemblyBrowser\GuiApp\obj\Debug\net5.0-windows\GuiApp.csproj.CopyComplete

@@ -4,13 +4,35 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
-        Title="AssemblyBrowser" Height="450" Width="800">
+        Title="AssemblyBrowser" Height="600" Width="800">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="400" />
+            <ColumnDefinition Width="400" />
+        </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="50"/>
-            <RowDefinition />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="550" />
         </Grid.RowDefinitions>
-        <Button Width="800" Height="50" Click="SelectAssembly">Select assembly</Button>
-        <TreeView Grid.Row="1"  Name="TreeView"></TreeView>
+        <ListBox Grid.Column="0" Grid.Row="1" ItemsSource="{Binding Dlls}"
+                 SelectedItem="{Binding SelectedDll}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Margin="5">
+                        <TextBlock FontSize="14" Text="{Binding Path=Name}" />
+                        <TextBlock Text="{Binding Path=Path}" />
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Button Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Command="{Binding AddCommand}">ADD</Button>
+        <TreeView Grid.Row="1" Grid.Column="1" DataContext="{Binding SelectedDll}"
+                  ItemsSource="{Binding Node.Child}">
+            <TreeView.ItemTemplate>
+                <HierarchicalDataTemplate ItemsSource="{Binding Child}">
+                    <TextBlock Text="{Binding Name}" />
+                </HierarchicalDataTemplate>
+            </TreeView.ItemTemplate>
+        </TreeView>
     </Grid>
 </Window>

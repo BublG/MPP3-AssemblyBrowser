@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using AssemblyBrowserLibrary;
 using AssemblyBrowserLibrary.Structures;
 using NUnit.Framework;
